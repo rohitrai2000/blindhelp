@@ -1,14 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div style="height: 50vh; width: 100vw; background-color: yellow; margin: 0%;  padding: 0%;" (touchstart)="startRecord()" (touchend)="stopRecord()">
+    <h1 style="margin: 0%;  padding: 0%; padding-top: 50%; padding-left: 40%;">Voice</h1>
   </div>
+  <div style="height: 50vh; width: 100vw; background-color: orange; margin: 0%; padding: 0%;" (click)="takePicture()">
+    <h1 style="margin: 0%;  padding: 0%; padding-top: 50%; padding-left: 35%;">Camera</h1>
+  </div>
+
+  <!-- <div style="height: 25vh; width: 100vw; background-color: yellow;" (touchstart)="startRecord()" (touchend)="stopRecord()">
+    Voice
+  </div>
+  <div style="height: 25vh; width: 100vw; background-color: red;" (click)="playAll()">
+    Play
+  </div>
+  <div style="height: 50vh; width: 100vw; background-color: orange;" (click)="takePicture()">
+    Camera
+  </div> -->
 </ion-content>

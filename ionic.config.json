@@ -1,5 +1,7 @@
 {
   "name": "blindApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
